@@ -4,8 +4,7 @@
 
 A modern and responsive desktop application built with Python and Kivy that serves as a global information hub. It provides live weather data, top news headlines, and a dynamic world clock based on user-selected cities.
 
-![Project Screenshot](https://i.imgur.com/7w8w2dZ.png) 
-*(Ganti link di atas dengan link screenshot Anda sendiri setelah diunggah ke GitHub)*
+
 
 ## ✨ Features
 
