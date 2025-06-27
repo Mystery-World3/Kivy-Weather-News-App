@@ -1,4 +1,4 @@
-# Global Info Dashboard
+# Kivy-Weather-News-App
 
 ![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg) ![Kivy 2.3+](https://img.shields.io/badge/Kivy-2.3+-purple.svg)
 
