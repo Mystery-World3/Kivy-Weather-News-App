@@ -55,4 +55,4 @@ python main.py
 The application will launch, displaying initial data for Jakarta. Start typing in the search box to find information for other cities.
 
 ---
-*A project guided by Gemini.*
+*Created by M Mishbahul M*
