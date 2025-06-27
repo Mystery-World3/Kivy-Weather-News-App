@@ -26,8 +26,8 @@ To run this application, you will need personal API keys from the following free
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/global-info-dashboard.git](https://github.com/YOUR_USERNAME/global-info-dashboard.git)
-    cd global-info-dashboard
+    git clone https://github.com/Mystery-World3/Kivy-Weather-News-App.git
+    cd Kivy-Weather-News-App
     ```
 
 2.  **Create and activate a virtual environment:**
