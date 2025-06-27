@@ -1,30 +1,33 @@
-# Kivy Global Info Dashboard
+# Global Info Dashboard
 
-![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)
+![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg) ![Kivy 2.3+](https://img.shields.io/badge/Kivy-2.3+-purple.svg)
 
-A modern desktop application built with Python and Kivy that displays live weather data and top news headlines from around the world. The app features a dynamic world clock and an autocomplete search for cities.
+A modern and responsive desktop application built with Python and Kivy that serves as a global information hub. It provides live weather data, top news headlines, and a dynamic world clock based on user-selected cities.
 
-## Features
+![Project Screenshot](https://i.imgur.com/7w8w2dZ.png) 
+*(Ganti link di atas dengan link screenshot Anda sendiri setelah diunggah ke GitHub)*
 
--   **Live Weather Data:** Fetches current weather, temperature, conditions, and a descriptive icon for any city, powered by the OpenWeatherMap API.
--   **Top News Headlines:** Displays the latest top news headlines relevant to the selected location, powered by the NewsAPI.org.
--   **Dynamic World Clock:** A real-time clock that automatically adjusts to the timezone of the searched city, complete with AM/PM format.
--   **Autocomplete Search:** Start typing a city name, and a list of suggestions will appear in real-time, powered by the Geopy library.
--   **Modern & Responsive UI:** Built with a dark theme, smooth animations for loading, and an interactive interface that fetches data in the background without freezing.
+## ✨ Features
 
-## Prerequisites
+-   **Live Weather Data:** Get current weather conditions, temperature, and a descriptive icon for any city, powered by the OpenWeatherMap API.
+-   **Clickable Top News:** Displays the latest top news headlines. Click any headline to open a popup with a summary and a link to the full article.
+-   **Dynamic World Clock:** A real-time clock that automatically adjusts to the timezone of the searched city, complete with an AM/PM format.
+-   **Autocomplete City Search:** A smart search bar that provides location suggestions as you type, powered by the Geopy library.
+-   **Modern & Responsive UI:** Built with a dark theme and smooth animations for a professional user experience. All network requests are handled in the background using threading to keep the UI from freezing.
+
+## 🛠️ Prerequisites
 
 To run this application, you will need personal API keys from the following free services:
 
 -   **OpenWeatherMap:** For weather data. Get your key at [openweathermap.org/api](https://openweathermap.org/api).
 -   **NewsAPI.org:** For news headlines. Get your key at [newsapi.org](https://newsapi.org/).
 
-## Installation
+## 🚀 Installation & Setup
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/kivy-info-dashboard.git](https://github.com/YOUR_USERNAME/kivy-info-dashboard.git)
-    cd kivy-info-dashboard
+    git clone [https://github.com/YOUR_USERNAME/global-info-dashboard.git](https://github.com/YOUR_USERNAME/global-info-dashboard.git)
+    cd global-info-dashboard
     ```
 
 2.  **Create and activate a virtual environment:**
@@ -45,14 +48,16 @@ To run this application, you will need personal API keys from the following free
     OPENWEATHER_API_KEY = "YOUR_OPENWEATHER_API_KEY_HERE"
     NEWSAPI_API_KEY = "YOUR_NEWSAPI_API_KEY_HERE"
     ```
+5.  **(Windows Only) Add Emoji Font:**
+    To display icons correctly, copy the `seguiemj.ttf` file from `C:\Windows\Fonts` into your project directory.
 
-## Usage
+## 🏃 Usage
 
 Run the application from your activated virtual environment:
 ```bash
 python main.py
 ```
-The application will launch, displaying initial data for Jakarta. Start typing in the search box to find information for other cities.
+The application will launch, displaying initial data for Jakarta. Start typing in the search box to find information for other cities around the world.
 
 ---
-*Created by M Mishbahul M*
+*Created by Mystery-World3*
